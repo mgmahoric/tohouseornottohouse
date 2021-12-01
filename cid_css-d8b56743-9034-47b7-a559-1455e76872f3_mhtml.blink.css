@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.ve-activated .ve-init-mw-desktopArticleTarget-editableContent #toc, .ve-activated #siteNotice, .ve-activated .mw-indicators, .ve-activated #t-print, .ve-activated #t-permalink, .ve-activated #p-coll-print_export, .ve-activated #t-cite, .ve-deactivating .ve-ui-surface, .ve-active .ve-init-mw-desktopArticleTarget-editableContent, .ve-active .ve-init-mw-tempWikitextEditorWidget { display: none; }
+
+.ve-activating .ve-ui-surface { height: 0px; overflow: hidden; padding: 0px !important; }
+
+.ve-loading #content > :not(.ve-init-mw-desktopArticleTarget-loading-overlay), .ve-activated .ve-init-mw-desktopArticleTarget-uneditableContent { pointer-events: none; user-select: none; opacity: 0.5; }
+
+.ve-activated #firstHeading { user-select: text; pointer-events: auto; cursor: text; }
+
+.ve-activated #firstHeading a { pointer-events: none; }
+
+.ve-activated #catlinks { cursor: pointer; }
+
+.ve-activated #catlinks:hover { background: rgb(233, 242, 253); }
+
+.ve-activated #catlinks a { opacity: 1; }
+
+.ve-activated #content { position: relative; }
+
+.ve-init-mw-desktopArticleTarget-loading-overlay { position: absolute; top: 1.25em; left: 0px; right: 0px; z-index: 1; margin-top: -0.5em; }
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder { transition: height 250ms ease 0s; height: 0px; }
+
+.oo-ui-element-hidden { display: none !important; }
+
+.mw-editsection { unicode-bidi: isolate; }
+
+.mw-editsection::before { content: "​"; }
+
+.mw-editsection a { white-space: nowrap; }
+
+.mw-editsection-divider { color: rgb(84, 89, 93); }
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder { border-bottom: 1px solid rgb(200, 204, 209); box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px; }
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-open { height: 42px; }
+
+.ve-init-mw-desktopArticleTarget-toolbar, .ve-init-mw-desktopArticleTarget-toolbarPlaceholder { font-size: 0.875em; margin: -1.42857em -0.571429em 1.42857em; }
+
+.skin-vector-legacy .ve-init-mw-desktopArticleTarget-toolbar, .skin-vector-legacy .ve-init-mw-desktopArticleTarget-toolbarPlaceholder { margin: -1.14em -1.14em 1.14em; }
+
+@media screen and (min-width: 982px) {
+  .skin-vector-legacy .ve-init-mw-desktopArticleTarget-toolbar, .skin-vector-legacy .ve-init-mw-desktopArticleTarget-toolbarPlaceholder { margin: -1.43em -1.71em 1.43em; }
+}

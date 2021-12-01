@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.tipsy { padding: 5px; position: absolute; z-index: 100000; cursor: default; }
+
+.tipsy-inner { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); max-width: 15em; padding: 5px 8px 4px; border: 1px solid rgb(162, 169, 177); border-radius: 2px; }
+
+.tipsy-arrow { position: absolute; background: url("/w/resources/src/jquery.tipsy/images/tipsy.png?93eac") left top no-repeat; width: 11px; height: 6px; }
+
+.tipsy-n .tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; }
+
+.tipsy-nw .tipsy-arrow { top: 0px; left: 10px; }
+
+.tipsy-ne .tipsy-arrow { top: 0px; right: 10px; }
+
+.tipsy-s .tipsy-arrow { bottom: 0px; left: 50%; margin-left: -5px; background-position: left bottom; }
+
+.tipsy-sw .tipsy-arrow { bottom: 0px; left: 10px; background-position: left bottom; }
+
+.tipsy-se .tipsy-arrow { bottom: 0px; right: 10px; background-position: left bottom; }
+
+.tipsy-e .tipsy-arrow { top: 50%; margin-top: -5px; right: 0px; width: 6px; height: 11px; background-position: right top; }
+
+.tipsy-w .tipsy-arrow { top: 50%; margin-top: -5px; left: 0px; width: 6px; height: 11px; }
+
+.tipsy { font-size: 0.8em; }

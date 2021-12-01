@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.mw-widget-copyTextLayout > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-field { max-width: 50em; }
+
+.mw-widget-copyTextLayout-multiline-button { display: block; max-width: 50em; margin-top: 0.5em; float: right; }
+
+.mw-widget-titleWidget-menu { }
+
+.mw-widget-titleWidget-menu .mw-widget-titleOptionWidget { line-height: normal; }
+
+.mw-widget-titleWidget-menu .mw-widget-titleOptionWidget-description { color: rgb(114, 119, 125); }
+
+.mw-widget-titleWidget-menu-withImages .mw-widget-titleOptionWidget { box-sizing: border-box; min-height: 3.75em; padding-left: 4.75em; padding-top: 0.5em; padding-bottom: 0.5em; }
+
+.mw-widget-titleWidget-menu-withImages .mw-widget-titleOptionWidget:not(:last-child) { margin-bottom: 2px; }
+
+.mw-widget-titleWidget-menu-withImages .mw-widget-titleOptionWidget > .oo-ui-labelElement-label { line-height: 2.8em; }
+
+.mw-widget-titleWidget-menu-withImages .mw-widget-titleOptionWidget.oo-ui-iconElement > .oo-ui-iconElement-icon { display: block; width: 3.75em; height: 3.75em; left: 0px; }
+
+.mw-widget-titleWidget-menu-withImages .mw-widget-titleOptionWidget.oo-ui-iconElement > .oo-ui-iconElement-icon:not(.mw-widget-titleOptionWidget-hasImage) { background-size: 80%; background-color: rgb(200, 204, 209); opacity: 0.4; }
+
+.mw-widget-titleWidget-menu-withImages .mw-widget-titleOptionWidget.oo-ui-iconElement > .oo-ui-iconElement-icon.mw-widget-titleOptionWidget-hasImage { border: 0px; background-size: cover; opacity: 0.7; }
+
+.mw-widget-titleWidget-menu-withImages .mw-widget-titleOptionWidget.oo-ui-optionWidget-highlighted.oo-ui-iconElement > .mw-widget-titleOptionWidget-hasImage, .mw-widget-titleWidget-menu-withImages .mw-widget-titleOptionWidget.oo-ui-optionWidget-selected.oo-ui-iconElement > .mw-widget-titleOptionWidget-hasImage { opacity: 1; }
+
+.mw-widget-titleWidget-menu-withDescriptions .mw-widget-titleOptionWidget > .oo-ui-labelElement-label { line-height: 1.5em; }
+
+.mw-widget-titleWidget-menu-withDescriptions .mw-widget-titleOptionWidget-description { display: block; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+.mw-widget-titleWidget-menu:not(.mw-widget-titleWidget-menu-withDescriptions) .mw-widget-titleOptionWidget-description { display: none; }

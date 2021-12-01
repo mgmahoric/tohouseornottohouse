@@ -1,0 +1,349 @@
+@charset "utf-8";
+
+cite, dfn { font-style: inherit; }
+
+q { quotes: "\"" "\"" "'" "'"; }
+
+blockquote { overflow: hidden; margin: 1em 0px; padding: 0px 40px; }
+
+small { font-size: 85%; }
+
+.mw-body-content sub, .mw-body-content sup, span.reference { font-size: 80%; }
+
+.ns-talk .mw-body-content dd { margin-top: 0.4em; margin-bottom: 0.4em; }
+
+#interwiki-completelist { font-weight: bold; }
+
+.client-js .mw-special-Watchlist #watchlist-message, .client-js .collapsible:not(.mw-made-collapsible).collapsed > tbody > tr:not(:first-child), #editpage-specialchars { display: none; }
+
+.mw-rcfilters-enabled .mw-specialpage-summary { margin-top: 1em; }
+
+.citation:target { background-color: rgba(0, 127, 255, 0.133); }
+
+.citation { overflow-wrap: break-word; }
+
+ol.references { font-size: 90%; margin-bottom: 0.5em; }
+
+.hlist dl, .hlist ol, .hlist ul { margin: 0px; padding: 0px; }
+
+.hlist dd, .hlist dt, .hlist li { margin: 0px; display: inline; }
+
+.hlist.inline, .hlist.inline dl, .hlist.inline ol, .hlist.inline ul, .hlist dl dl, .hlist dl ol, .hlist dl ul, .hlist ol dl, .hlist ol ol, .hlist ol ul, .hlist ul dl, .hlist ul ol, .hlist ul ul { display: inline; }
+
+.hlist .mw-empty-li { display: none; }
+
+.hlist dt::after { content: ":"; }
+
+.hlist dd::after, .hlist li::after { content: " · "; font-weight: bold; }
+
+.hlist dd:last-child::after, .hlist dt:last-child::after, .hlist li:last-child::after { content: none; }
+
+.hlist dd dd:first-child::before, .hlist dd dt:first-child::before, .hlist dd li:first-child::before, .hlist dt dd:first-child::before, .hlist dt dt:first-child::before, .hlist dt li:first-child::before, .hlist li dd:first-child::before, .hlist li dt:first-child::before, .hlist li li:first-child::before { content: " ("; font-weight: normal; }
+
+.hlist dd dd:last-child::after, .hlist dd dt:last-child::after, .hlist dd li:last-child::after, .hlist dt dd:last-child::after, .hlist dt dt:last-child::after, .hlist dt li:last-child::after, .hlist li dd:last-child::after, .hlist li dt:last-child::after, .hlist li li:last-child::after { content: ")"; font-weight: normal; }
+
+.hlist ol { counter-reset: listitem 0; }
+
+.hlist ol > li { counter-increment: listitem 1; }
+
+.hlist ol > li::before { content: " " counter(listitem) " "; }
+
+.hlist dd ol > li:first-child::before, .hlist dt ol > li:first-child::before, .hlist li ol > li:first-child::before { content: " (" counter(listitem) " "; }
+
+.plainlist ol, .plainlist ul { line-height: inherit; list-style: none none; margin: 0px; }
+
+.plainlist ol li, .plainlist ul li { margin-bottom: 0px; }
+
+.navbox { box-sizing: border-box; border: 1px solid rgb(162, 169, 177); width: 100%; clear: both; font-size: 88%; text-align: center; padding: 1px; margin: 1em auto 0px; }
+
+.navbox .navbox { margin-top: 0px; }
+
+.navbox + .navbox { margin-top: -1px; }
+
+.navbox-inner, .navbox-subgroup { width: 100%; }
+
+.navbox-group, .navbox-title, .navbox-abovebelow { padding: 0.25em 1em; line-height: 1.5em; text-align: center; }
+
+th.navbox-group { white-space: nowrap; text-align: right; }
+
+.navbox, .navbox-subgroup { background-color: rgb(253, 253, 253); }
+
+.navbox-list { line-height: 1.5em; border-color: rgb(253, 253, 253); }
+
+tr + tr > .navbox-abovebelow, tr + tr > .navbox-group, tr + tr > .navbox-image, tr + tr > .navbox-list { border-top: 2px solid rgb(253, 253, 253); }
+
+.navbox th, .navbox-title { background-color: rgb(204, 204, 255); }
+
+.navbox-abovebelow, th.navbox-group, .navbox-subgroup .navbox-title { background-color: rgb(221, 221, 255); }
+
+.navbox-subgroup .navbox-group, .navbox-subgroup .navbox-abovebelow { background-color: rgb(230, 230, 255); }
+
+.navbox-even { background-color: rgb(247, 247, 247); }
+
+.navbox-odd { background-color: transparent; }
+
+.navbox .hlist td dl, .navbox .hlist td ol, .navbox .hlist td ul, .navbox td.hlist dl, .navbox td.hlist ol, .navbox td.hlist ul { padding: 0.125em 0px; }
+
+.mw-parser-output .mw-collapsible-toggle { font-weight: normal; text-align: right; padding-right: 0.2em; padding-left: 0.2em; }
+
+.mw-collapsible-leftside-toggle .mw-collapsible-toggle { float: left; text-align: left; }
+
+.infobox { border: 1px solid rgb(162, 169, 177); border-spacing: 3px; background-color: rgb(248, 249, 250); color: black; margin: 0.5em 0px 0.5em 1em; padding: 0.2em; float: right; clear: right; font-size: 88%; line-height: 1.5em; width: 22em; }
+
+.infobox-header, .infobox-label, .infobox-above, .infobox-full-data, .infobox-data, .infobox-below, .infobox-subheader, .infobox-image, .infobox-navbar, .infobox th, .infobox td { vertical-align: top; }
+
+.infobox-label, .infobox-data, .infobox th, .infobox td { text-align: left; }
+
+.infobox .infobox-above, .infobox .infobox-title, .infobox caption { font-size: 125%; font-weight: bold; text-align: center; }
+
+.infobox-title, .infobox caption { padding: 0.2em; }
+
+.infobox .infobox-header, .infobox .infobox-subheader, .infobox .infobox-image, .infobox .infobox-full-data, .infobox .infobox-below { text-align: center; }
+
+.infobox .infobox-navbar { text-align: right; }
+
+.wikitable.plainrowheaders th[scope="row"] { font-weight: normal; text-align: left; }
+
+.wikitable td ul, .wikitable td ol, .wikitable td dl { text-align: left; }
+
+table.mw-hiero-table td { vertical-align: middle; }
+
+.mw-parser-output a[href$=".pdf"].external, .mw-parser-output a[href*=".pdf?"].external, .mw-parser-output a[href*=".pdf#"].external, .mw-parser-output a[href$=".PDF"].external, .mw-parser-output a[href*=".PDF?"].external, .mw-parser-output a[href*=".PDF#"].external { background: url("Icons-mini-file_acrobat.gif") right center no-repeat; padding-right: 18px; }
+
+.messagebox { border: 1px solid rgb(162, 169, 177); background-color: rgb(248, 249, 250); width: 80%; margin: 0px auto 1em; padding: 0.2em; }
+
+.messagebox.merge { border: 1px solid rgb(192, 184, 204); background-color: rgb(240, 229, 255); text-align: center; }
+
+.messagebox.cleanup { border: 1px solid rgb(159, 159, 255); background-color: rgb(239, 239, 255); text-align: center; }
+
+.messagebox.standard-talk { border: 1px solid rgb(192, 192, 144); background-color: rgb(248, 234, 186); margin: 4px auto; }
+
+.mbox-inside .standard-talk { border: 1px solid rgb(192, 192, 144); background-color: rgb(248, 234, 186); width: 100%; margin: 2px 0px; padding: 2px; }
+
+.messagebox.small { width: 238px; font-size: 85%; float: right; clear: both; margin: 0px 0px 1em 1em; line-height: 1.25em; }
+
+.messagebox.small-talk { width: 238px; font-size: 85%; float: right; clear: both; margin: 0px 0px 1em 1em; line-height: 1.25em; background-color: rgb(248, 234, 186); }
+
+th.mbox-text, td.mbox-text { border: none; padding: 0.25em 0.9em; width: 100%; }
+
+td.mbox-image { border: none; padding: 2px 0px 2px 0.9em; text-align: center; }
+
+td.mbox-imageright { border: none; padding: 2px 0.9em 2px 0px; text-align: center; }
+
+td.mbox-empty-cell { border: none; padding: 0px; width: 1px; }
+
+table.ambox { margin: 0px 10%; border-width: 1px 1px 1px 10px; border-style: solid; border-color: rgb(162, 169, 177) rgb(162, 169, 177) rgb(162, 169, 177) rgb(51, 102, 204); border-image: initial; background-color: rgb(251, 251, 251); box-sizing: border-box; }
+
+table.ambox + table.ambox { margin-top: -1px; }
+
+.ambox th.mbox-text, .ambox td.mbox-text { padding: 0.25em 0.5em; }
+
+.ambox td.mbox-image { padding: 2px 0px 2px 0.5em; }
+
+.ambox td.mbox-imageright { padding: 2px 0.5em 2px 0px; }
+
+table.ambox-notice { border-left: 10px solid rgb(51, 102, 204); }
+
+table.ambox-speedy { border-left: 10px solid rgb(179, 36, 36); background-color: rgb(254, 231, 230); }
+
+table.ambox-delete { border-left: 10px solid rgb(179, 36, 36); }
+
+table.ambox-content { border-left: 10px solid rgb(242, 133, 0); }
+
+table.ambox-style { border-left: 10px solid rgb(255, 204, 51); }
+
+table.ambox-move { border-left: 10px solid rgb(153, 50, 204); }
+
+table.ambox-protection { border-left: 10px solid rgb(162, 169, 177); }
+
+table.imbox { margin: 4px 10%; border-collapse: collapse; border: 3px solid rgb(51, 102, 204); background-color: rgb(251, 251, 251); box-sizing: border-box; }
+
+.imbox .mbox-text .imbox { margin: 0px -0.5em; display: block; }
+
+.mbox-inside .imbox { margin: 4px; }
+
+table.imbox-notice { border: 3px solid rgb(51, 102, 204); }
+
+table.imbox-speedy { border: 3px solid rgb(179, 36, 36); background-color: rgb(254, 231, 230); }
+
+table.imbox-delete { border: 3px solid rgb(179, 36, 36); }
+
+table.imbox-content { border: 3px solid rgb(242, 133, 0); }
+
+table.imbox-style { border: 3px solid rgb(255, 204, 51); }
+
+table.imbox-move { border: 3px solid rgb(153, 50, 204); }
+
+table.imbox-protection { border: 3px solid rgb(162, 169, 177); }
+
+table.imbox-license { border: 3px solid rgb(136, 136, 170); background-color: rgb(247, 248, 255); }
+
+table.imbox-featured { border: 3px solid rgb(203, 161, 53); }
+
+table.cmbox { margin: 3px 10%; border-collapse: collapse; border: 1px solid rgb(162, 169, 177); background-color: rgb(223, 232, 255); box-sizing: border-box; }
+
+table.cmbox-notice { background-color: rgb(216, 232, 255); }
+
+table.cmbox-speedy { margin-top: 4px; margin-bottom: 4px; border: 4px solid rgb(179, 36, 36); background-color: rgb(255, 219, 219); }
+
+table.cmbox-delete { background-color: rgb(255, 219, 219); }
+
+table.cmbox-content { background-color: rgb(255, 231, 206); }
+
+table.cmbox-style { background-color: rgb(255, 249, 219); }
+
+table.cmbox-move { background-color: rgb(228, 216, 255); }
+
+table.cmbox-protection { background-color: rgb(239, 239, 225); }
+
+table.ombox { margin: 4px 10%; border-collapse: collapse; border: 1px solid rgb(162, 169, 177); background-color: rgb(248, 249, 250); box-sizing: border-box; }
+
+table.ombox-notice { border: 1px solid rgb(162, 169, 177); }
+
+table.ombox-speedy { border: 2px solid rgb(179, 36, 36); background-color: rgb(254, 231, 230); }
+
+table.ombox-delete { border: 2px solid rgb(179, 36, 36); }
+
+table.ombox-content { border: 1px solid rgb(242, 133, 0); }
+
+table.ombox-style { border: 1px solid rgb(255, 204, 51); }
+
+table.ombox-move { border: 1px solid rgb(153, 50, 204); }
+
+table.ombox-protection { border: 2px solid rgb(162, 169, 177); }
+
+table.tmbox { margin: 4px 10%; border-collapse: collapse; border: 1px solid rgb(192, 192, 144); background-color: rgb(248, 234, 186); min-width: 80%; box-sizing: border-box; }
+
+.tmbox.mbox-small { min-width: 0px; }
+
+.mediawiki .mbox-inside .tmbox { margin: 2px 0px; width: 100%; }
+
+.mbox-inside .tmbox.mbox-small { line-height: 1.5em; font-size: 100%; }
+
+table.tmbox-speedy { border: 2px solid rgb(179, 36, 36); background-color: rgb(254, 231, 230); }
+
+table.tmbox-delete { border: 2px solid rgb(179, 36, 36); }
+
+table.tmbox-content { border: 2px solid rgb(242, 133, 0); }
+
+table.tmbox-style { border: 2px solid rgb(255, 204, 51); }
+
+table.tmbox-move { border: 2px solid rgb(153, 50, 204); }
+
+table.tmbox-protection, table.tmbox-notice { border: 1px solid rgb(192, 192, 144); }
+
+table.fmbox { clear: both; margin: 0.2em 0px; width: 100%; border: 1px solid rgb(162, 169, 177); background-color: rgb(248, 249, 250); box-sizing: border-box; }
+
+table.fmbox-system { background-color: rgb(248, 249, 250); }
+
+table.fmbox-warning { border: 1px solid rgb(187, 112, 112); background-color: rgb(255, 219, 219); }
+
+table.fmbox-editnotice { background-color: transparent; }
+
+div.mw-warning-with-logexcerpt, div.mw-lag-warn-high, div.mw-cascadeprotectedwarning, div#mw-protect-cascadeon, div.titleblacklist-warning { clear: both; margin: 0.2em 0px; border: 1px solid rgb(187, 112, 112); background-color: rgb(255, 219, 219); padding: 0.25em 0.9em; box-sizing: border-box; }
+
+.mw-contributions-blocked-notice-partial .mw-warning-with-logexcerpt { border-color: rgb(255, 204, 51); background-color: rgb(254, 246, 231); }
+
+html body.mediawiki .mbox-small { clear: right; float: right; margin: 4px 0px 4px 1em; box-sizing: border-box; width: 238px; font-size: 88%; line-height: 1.25em; }
+
+html body.mediawiki .mbox-small-left { margin: 4px 1em 4px 0px; box-sizing: border-box; overflow: hidden; width: 238px; border-collapse: collapse; font-size: 88%; line-height: 1.25em; }
+
+.compact-ambox table .mbox-image, .compact-ambox table .mbox-imageright, .compact-ambox table .mbox-empty-cell { display: none; }
+
+.compact-ambox table.ambox { border: none; border-collapse: collapse; background-color: transparent; width: auto; display: block; margin: 0px 0px 0px 1.6em !important; padding: 0px !important; }
+
+body.mediawiki .compact-ambox table.mbox-small-left { font-size: 100%; width: auto; margin: 0px; }
+
+.compact-ambox table .mbox-text { padding: 0px !important; margin: 0px !important; }
+
+.compact-ambox table .mbox-text-span { display: list-item; line-height: 1.5em; list-style-type: square; list-style-image: url("/w/skins/MonoBook/resources/images/bullet.svg"); }
+
+.compact-ambox .hide-when-compact { display: none; }
+
+.nounderlines a, .IPA a:link, .IPA a:visited { text-decoration: none !important; }
+
+.nowrap, .nowraplinks a { white-space: nowrap; }
+
+.wrap, .wraplinks a { white-space: normal; }
+
+#wpUploadDescription { height: 13em; }
+
+.thumbinner { min-width: 100px; }
+
+#mw-subcategories, #mw-pages, #mw-category-media, #filehistory, #wikiPreview, #wikiDiff { clear: both; }
+
+.wpb .wpb-header { display: none; }
+
+.wpbs-inner .wpb .wpb-header { display: table-row; }
+
+.wpbs-inner .wpb-outside { display: none; }
+
+.mw-tag-markers { font-style: italic; font-size: 90%; }
+
+.checkuser-show, .sysop-show, .abusefilter-show, .abusefilter-helper-show, .patroller-show, .templateeditor-show, .extendedmover-show, .extendedconfirmed-show, .autoconfirmed-show, .user-show { display: none; }
+
+.ve-ui-mwNoticesPopupTool-item .editnotice-redlink, .ve-ui-mwNoticesPopupTool-item .mbox-image, .ve-ui-mwNoticesPopupTool-item .mbox-imageright { display: none !important; }
+
+ul.permissions-errors > li { list-style: none none; }
+
+ul.permissions-errors { margin: 0px; }
+
+span.texhtml { font-family: "Nimbus Roman No9 L", "Times New Roman", Times, serif; font-size: 118%; line-height: 1; white-space: nowrap; font-feature-settings: "lnum", "tnum", "kern" 0; font-variant-numeric: lining-nums tabular-nums; font-kerning: none; }
+
+span.texhtml span.texhtml { font-size: 100%; }
+
+span.mwe-math-mathml-inline { font-size: 118%; }
+
+.mwe-math-fallback-image-display, .mwe-math-mathml-display { margin-top: 0.6em; margin-bottom: 0.6em; margin-left: 1.6em !important; }
+
+.mwe-math-mathml-display math { display: inline; }
+
+.k-player .k-attribution { visibility: hidden; }
+
+.PopUpMediaTransform a .play-btn-large { margin: 0px; inset: auto auto 0px 0px; }
+
+@media screen {
+  #content .gallerybox div.thumb { background-color: rgb(248, 249, 250); }
+  .gallerybox .thumb img { background: url("//upload.wikimedia.org/wikipedia/commons/5/5d/Checker-16x16.png") repeat rgb(255, 255, 255); }
+  .ns-0 .gallerybox .thumb img, .ns-2 .gallerybox .thumb img, .ns-100 .gallerybox .thumb img, .nochecker .gallerybox .thumb img { background-image: none; }
+  #siteSub { display: block; }
+}
+
+.flaggedrevs_draft_synced, .flaggedrevs_stable_synced, #t-upload, .mw-special-Book #coll-downloadbox { display: none; }
+
+.page-Main_Page #deleteconfirm, .page-Main_Page #t-cite, .page-Main_Page #footer-info-lastmod, .action-view.page-Main_Page #siteSub, .action-view.page-Main_Page #contentSub, .action-view.page-Main_Page #contentSub2, .action-view.page-Main_Page .firstHeading { display: none !important; }
+
+#coordinates { position: absolute; top: 0px; right: 0px; float: right; margin: 0px; padding: 0px; line-height: 1.5em; text-align: right; text-indent: 0px; font-size: 85%; text-transform: none; white-space: nowrap; }
+
+.ve-ce-surface-enabled #coordinates { margin-right: 2em; margin-top: -1em; }
+
+.mw-indicator #coordinates { position: absolute; top: 3em; right: 0px; line-height: 1.6; text-align: right; font-size: 92%; white-space: nowrap; }
+
+div.flaggedrevs_short { position: absolute; top: -3em; right: 100px; z-index: 1; }
+
+#siteSub { font-size: 80%; }
+
+body.skin-vector-legacy #siteSub { font-size: 92%; }
+
+.mw-body .mw-indicators { padding-top: 0.4em; }
+
+.mw-body-content blockquote { border-left: none; }
+
+.compact-ambox table .mbox-text-span { list-style-type: disc; list-style-image: url("/w/skins/Vector/resources/common/images/bullet-icon.svg"); }
+
+@media print {
+  .ns--1 .ambox, .ns-0 .ambox, .ns--1 .navbox, .ns-0 .navbox, .mediawiki.ns--1 .mw-parser-output .sidebar, .mediawiki.ns-0 .mw-parser-output .sidebar, .ns--1 .sisterproject, .ns-0 .sisterproject, .ns--1 .hatnote, .ns-0 .hatnote, .ns--1 .metadata, .ns-0 .metadata, .sistersitebox, .editlink, .navbar, span.mw-collapsible-toggle, th .sortkey, td .sortkey, #mw-revision-nav, .nourlexpansion a.external.text::after, .nourlexpansion a.external.autonumber::after { display: none !important; }
+  .mw-parser-output .mw-collapsed .mw-collapsible-content { display: block !important; }
+  table.collapsible tr, .mw-parser-output table.mw-collapsed > * > tr { display: table-row !important; }
+  .mw-parser-output ol.mw-collapsed > li, .mw-parser-output ul.mw-collapsed > li { display: list-item !important; }
+  #firstHeading { margin: 0px; }
+  #content a.external.text::after, #content a.external.autonumber::after { overflow-wrap: break-word; }
+  .infobox { border: 1px solid rgb(170, 170, 170); background-color: rgb(255, 255, 255); border-spacing: 0px; border-collapse: collapse; width: 180pt !important; }
+  .infobox > * > tr > td, .infobox > * > tr > th { padding: 2px 5px; border-bottom: 1px solid rgb(234, 236, 240); }
+  .infobox a, .infobox > * > tr:last-child > th, .infobox > * > tr:last-child > td { border: 0px; }
+  .refbegin a, .references a, .reference a { color: black !important; }
+  .reference a { border-bottom: 0px; }
+  ol.references, div.reflist, div.refbegin, cite * { font-size: inherit !important; }
+  .refbegin li, .references li { color: rgb(102, 102, 102); line-height: 14pt; }
+  .printfooter { clear: both; }
+}

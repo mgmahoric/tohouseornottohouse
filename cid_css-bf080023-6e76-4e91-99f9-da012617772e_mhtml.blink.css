@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.mw-parser-output .tmulti .thumbinner { display: flex; flex-direction: column; }
+
+.mw-parser-output .tmulti .trow { display: flex; flex-flow: row wrap; clear: left; width: 100%; box-sizing: border-box; }
+
+.mw-parser-output .tmulti .tsingle { margin: 1px; float: left; }
+
+.mw-parser-output .tmulti .theader { clear: both; font-weight: bold; text-align: center; align-self: center; background-color: transparent; width: 100%; }
+
+.mw-parser-output .tmulti .thumbcaption { background-color: transparent; }
+
+.mw-parser-output .tmulti .text-align-left { text-align: left; }
+
+.mw-parser-output .tmulti .text-align-right { text-align: right; }
+
+.mw-parser-output .tmulti .text-align-center { text-align: center; }
+
+@media (max-width: 720px) {
+  .mw-parser-output .tmulti .thumbinner { box-sizing: border-box; align-items: center; width: 100% !important; max-width: none !important; }
+  .mw-parser-output .tmulti .trow { justify-content: center; }
+  .mw-parser-output .tmulti .tsingle { box-sizing: border-box; text-align: center; float: none !important; max-width: 100% !important; }
+  .mw-parser-output .tmulti .tsingle .thumbcaption { text-align: left; }
+  .mw-parser-output .tmulti .trow > .thumbcaption { text-align: center; }
+}
